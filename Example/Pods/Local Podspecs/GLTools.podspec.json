@@ -1,0 +1,22 @@
+{
+  "name": "GLTools",
+  "version": "0.1.0",
+  "summary": "A short description of GLTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zoulinzhya/GLTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zoulinzhya": "zoulinzhya@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zoulinzhya/GLTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GLTools/Classes/**/*"
+}
