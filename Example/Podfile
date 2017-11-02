@@ -8,6 +8,7 @@ target 'GLTools_Example' do
   pod 'GLTools', :path => '../'
   pod 'SnapKit', '~> 4.0.0'
   pod 'Kingfisher', '~> 4.0.0'
+  #pod 'Alamofire', '~> 4.4'
 
   target 'GLTools_Tests' do
     inherit! :search_paths
