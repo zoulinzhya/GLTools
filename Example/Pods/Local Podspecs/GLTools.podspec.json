@@ -1,8 +1,8 @@
 {
   "name": "GLTools",
   "version": "0.1.0",
-  "summary": "A short description of GLTools.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A common using swift kits.",
+  "description": "TODO: Add long description of the pod here.\n      A common using swift kits.",
   "homepage": "https://github.com/zoulinzhya/GLTools",
   "license": {
     "type": "MIT",
@@ -18,5 +18,17 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GLTools/Classes/**/*"
+  "source_files": "GLTools/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "SnapKit": [
+      "~> 4.0.0"
+    ],
+    "Kingfisher": [
+      "~> 4.0.0"
+    ]
+  }
 }
