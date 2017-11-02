@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GLTools/Classes/**/*'
+  #s.source_files = 'GLTools/Classes/**/*'
+  s.source_files = 'GLTools/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'GLTools' => ['GLTools/Assets/*.png']
