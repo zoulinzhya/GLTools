@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GLTools
 
 [![CI Status](http://img.shields.io/travis/zoulinzhya/GLTools.svg?style=flat)](https://travis-ci.org/zoulinzhya/GLTools)
@@ -27,3 +28,6 @@ zoulinzhya, zoulinzhya@163.com
 ## License
 
 GLTools is available under the MIT license. See the LICENSE file for more info.
+=======
+# GLTools
+>>>>>>> c8480130ab1b40fb0421eb31875a2963a1d9568e
