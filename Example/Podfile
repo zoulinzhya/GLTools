@@ -2,7 +2,7 @@
 source 'https://github.com/zoulinzhya/GLTools.git'
 source 'https://github.com/cocoaPods/Specs.git'
 
-use_frameworks!
+#use_frameworks!
 platform :ios, '8.0'
 
 target 'GLTools_Example' do
@@ -16,5 +16,8 @@ target 'GLTools_Example' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    use_frameworks!
   end
+  
+  use_frameworks!
 end

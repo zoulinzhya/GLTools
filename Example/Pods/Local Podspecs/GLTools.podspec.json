@@ -2,7 +2,7 @@
   "name": "GLTools",
   "version": "0.1.0",
   "summary": "A common using swift kits.",
-  "description": "TODO: Add long description of the pod here.\n      A common using swift kits.",
+  "description": "A common using swift kits.",
   "homepage": "https://github.com/zoulinzhya/GLTools",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "GLTools/Classes/**/*",
   "frameworks": [
