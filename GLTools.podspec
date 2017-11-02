@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GLTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GLTools.'
+  s.summary          = 'A common using swift kits.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+      A common using swift kits.
                        DESC
 
   s.homepage         = 'https://github.com/zoulinzhya/GLTools'
@@ -37,6 +38,8 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SnapKit', '~> 4.0.0'
+  s.dependency 'Kingfisher', '~> 4.0.0'
 end
