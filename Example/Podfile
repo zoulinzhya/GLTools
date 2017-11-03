@@ -1,6 +1,4 @@
-
-source 'https://github.com/zoulinzhya/GLTools.git'
-source 'https://github.com/cocoaPods/Specs.git'
+use_frameworks!
 
 platform :ios, '8.0'
 
