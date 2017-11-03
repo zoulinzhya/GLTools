@@ -3,6 +3,7 @@ source 'https://github.com/zoulinzhya/GLTools.git'
 source 'https://github.com/cocoaPods/Specs.git'
 
 use_frameworks!
+
 platform :ios, '8.0'
 
 target 'GLTools_Example' do
@@ -11,13 +12,12 @@ target 'GLTools_Example' do
   pod 'SnapKit', '~> 4.0.0'
   pod 'Kingfisher', '~> 4.0.0'
   #pod 'Alamofire', '~> 4.4'
-  use_frameworks!
+
   target 'GLTools_Tests' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
-    use_frameworks!
+
   end
   
-  use_frameworks!
 end
