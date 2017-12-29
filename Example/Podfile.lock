@@ -12,20 +12,16 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - GLTools (from `../`)
+  - GLTools (~> 0.1.2)
   - Kingfisher (~> 4.0.0)
   - SnapKit (~> 4.0.0)
 
-EXTERNAL SOURCES:
-  GLTools:
-    :path: ../
-
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GLTools: 0fffd52a045e28b7c4a8be84807f592baba09890
+  GLTools: efa28a5fe55c49b164df7adbcb45ff93103dece2
   Kingfisher: b771785e9461ed4b8686d40e7145f9e58100cb24
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 348b539771ef88cd9f336a28cb02699598f09f01
+PODFILE CHECKSUM: f78878fdf1895960f3d1d9a83d903b93be08be6e
 
 COCOAPODS: 1.3.1
