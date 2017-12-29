@@ -28,7 +28,6 @@
 		97B478851FF5F2A000E6943A /* SnapSudokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478771FF5F2A000E6943A /* SnapSudokuViewController.swift */; };
 		97B478861FF5F2A000E6943A /* SnapWithArray2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478781FF5F2A000E6943A /* SnapWithArray2ViewController.swift */; };
 		97B478871FF5F2A000E6943A /* SnapWithArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478791FF5F2A000E6943A /* SnapWithArrayViewController.swift */; };
-		97B478881FF5F2A000E6943A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4787A1FF5F2A000E6943A /* UIColorExtension.swift */; };
 		97B4788A1FF5F30C00E6943A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478891FF5F30C00E6943A /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +69,6 @@
 		97B478771FF5F2A000E6943A /* SnapSudokuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapSudokuViewController.swift; sourceTree = "<group>"; };
 		97B478781FF5F2A000E6943A /* SnapWithArray2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapWithArray2ViewController.swift; sourceTree = "<group>"; };
 		97B478791FF5F2A000E6943A /* SnapWithArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapWithArrayViewController.swift; sourceTree = "<group>"; };
-		97B4787A1FF5F2A000E6943A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		97B478891FF5F30C00E6943A /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		A219D3EC68A2605DF83AEACA /* GLTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GLTools.podspec; path = ../GLTools.podspec; sourceTree = "<group>"; };
 		B3EB4F7E8823FF49E2A021D4 /* Pods_GLTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +191,6 @@
 				97B478771FF5F2A000E6943A /* SnapSudokuViewController.swift */,
 				97B478781FF5F2A000E6943A /* SnapWithArray2ViewController.swift */,
 				97B478791FF5F2A000E6943A /* SnapWithArrayViewController.swift */,
-				97B4787A1FF5F2A000E6943A /* UIColorExtension.swift */,
 			);
 			path = SnpExtentionDemo;
 			sourceTree = "<group>";
@@ -452,7 +449,6 @@
 				97B478811FF5F2A000E6943A /* SelectTableViewController.swift in Sources */,
 				97B478871FF5F2A000E6943A /* SnapWithArrayViewController.swift in Sources */,
 				97B478831FF5F2A000E6943A /* SnapSameWidthViewController.swift in Sources */,
-				97B478881FF5F2A000E6943A /* UIColorExtension.swift in Sources */,
 				97B478851FF5F2A000E6943A /* SnapSudokuViewController.swift in Sources */,
 				97B478861FF5F2A000E6943A /* SnapWithArray2ViewController.swift in Sources */,
 			);
