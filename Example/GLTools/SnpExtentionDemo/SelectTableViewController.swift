@@ -10,7 +10,7 @@ import UIKit
 
 class SelectTableViewController: UITableViewController {
 
-    let dataSource = ["数组布局", "数组布局2", "等间距布局", "等大小布局", "九宫格", "九宫格2"]
+    fileprivate let dataSource = ["数组布局", "数组布局2", "等间距布局", "等大小布局", "九宫格", "九宫格2"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +52,7 @@ class SelectTableViewController: UITableViewController {
             vc = SnapSudoku2ViewController()
         default: break
         }
+        vc.title = dataSource[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }
 }
