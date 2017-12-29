@@ -15,6 +15,21 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		80AECB164E0DC82F582BA705 /* Pods_GLTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1D6F0C9BD0A48755471D8B /* Pods_GLTools_Example.framework */; };
+		97B4787B1FF5F2A000E6943A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B4786D1FF5F2A000E6943A /* 1.png */; };
+		97B4787C1FF5F2A000E6943A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B4786E1FF5F2A000E6943A /* 2.png */; };
+		97B4787D1FF5F2A000E6943A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B4786F1FF5F2A000E6943A /* 3.png */; };
+		97B4787E1FF5F2A000E6943A /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B478701FF5F2A000E6943A /* 4.png */; };
+		97B4787F1FF5F2A000E6943A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B478711FF5F2A000E6943A /* 5.png */; };
+		97B478801FF5F2A000E6943A /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B478721FF5F2A000E6943A /* 6.png */; };
+		97B478811FF5F2A000E6943A /* SelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478731FF5F2A000E6943A /* SelectTableViewController.swift */; };
+		97B478821FF5F2A000E6943A /* SnapSameSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478741FF5F2A000E6943A /* SnapSameSpaceViewController.swift */; };
+		97B478831FF5F2A000E6943A /* SnapSameWidthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478751FF5F2A000E6943A /* SnapSameWidthViewController.swift */; };
+		97B478841FF5F2A000E6943A /* SnapSudoku2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478761FF5F2A000E6943A /* SnapSudoku2ViewController.swift */; };
+		97B478851FF5F2A000E6943A /* SnapSudokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478771FF5F2A000E6943A /* SnapSudokuViewController.swift */; };
+		97B478861FF5F2A000E6943A /* SnapWithArray2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478781FF5F2A000E6943A /* SnapWithArray2ViewController.swift */; };
+		97B478871FF5F2A000E6943A /* SnapWithArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478791FF5F2A000E6943A /* SnapWithArrayViewController.swift */; };
+		97B478881FF5F2A000E6943A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4787A1FF5F2A000E6943A /* UIColorExtension.swift */; };
+		97B4788A1FF5F30C00E6943A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B478891FF5F30C00E6943A /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +55,26 @@
 		607FACE51AFB9204008FA782 /* GLTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		792173273114A28F6E10CB68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		792173273114A28F6E10CB68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8A073BE0385A616ED13837DF /* Pods-GLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLTools_Tests/Pods-GLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A219D3EC68A2605DF83AEACA /* GLTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GLTools.podspec; path = ../GLTools.podspec; sourceTree = "<group>"; };
+		97B4786D1FF5F2A000E6943A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		97B4786E1FF5F2A000E6943A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		97B4786F1FF5F2A000E6943A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		97B478701FF5F2A000E6943A /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		97B478711FF5F2A000E6943A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		97B478721FF5F2A000E6943A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		97B478731FF5F2A000E6943A /* SelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTableViewController.swift; sourceTree = "<group>"; };
+		97B478741FF5F2A000E6943A /* SnapSameSpaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapSameSpaceViewController.swift; sourceTree = "<group>"; };
+		97B478751FF5F2A000E6943A /* SnapSameWidthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapSameWidthViewController.swift; sourceTree = "<group>"; };
+		97B478761FF5F2A000E6943A /* SnapSudoku2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapSudoku2ViewController.swift; sourceTree = "<group>"; };
+		97B478771FF5F2A000E6943A /* SnapSudokuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapSudokuViewController.swift; sourceTree = "<group>"; };
+		97B478781FF5F2A000E6943A /* SnapWithArray2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapWithArray2ViewController.swift; sourceTree = "<group>"; };
+		97B478791FF5F2A000E6943A /* SnapWithArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapWithArrayViewController.swift; sourceTree = "<group>"; };
+		97B4787A1FF5F2A000E6943A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		97B478891FF5F30C00E6943A /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		A219D3EC68A2605DF83AEACA /* GLTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GLTools.podspec; path = ../GLTools.podspec; sourceTree = "<group>"; };
 		B3EB4F7E8823FF49E2A021D4 /* Pods_GLTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA04A01068DF3923DF153CE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BA04A01068DF3923DF153CE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DDBFBA9E8AA0B34A838D4E5D /* Pods-GLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLTools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLTools_Example/Pods-GLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F96F39EB1633E5AEE9FFB097 /* Pods-GLTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLTools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLTools_Example/Pods-GLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,7 +134,9 @@
 		607FACD21AFB9204008FA782 /* Example for GLTools */ = {
 			isa = PBXGroup;
 			children = (
+				97B4786B1FF5F2A000E6943A /* SnpExtentionDemo */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				97B478891FF5F30C00E6943A /* HomeTableViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -148,6 +180,35 @@
 				792173273114A28F6E10CB68 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		97B4786B1FF5F2A000E6943A /* SnpExtentionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				97B4786C1FF5F2A000E6943A /* images */,
+				97B478731FF5F2A000E6943A /* SelectTableViewController.swift */,
+				97B478741FF5F2A000E6943A /* SnapSameSpaceViewController.swift */,
+				97B478751FF5F2A000E6943A /* SnapSameWidthViewController.swift */,
+				97B478761FF5F2A000E6943A /* SnapSudoku2ViewController.swift */,
+				97B478771FF5F2A000E6943A /* SnapSudokuViewController.swift */,
+				97B478781FF5F2A000E6943A /* SnapWithArray2ViewController.swift */,
+				97B478791FF5F2A000E6943A /* SnapWithArrayViewController.swift */,
+				97B4787A1FF5F2A000E6943A /* UIColorExtension.swift */,
+			);
+			path = SnpExtentionDemo;
+			sourceTree = "<group>";
+		};
+		97B4786C1FF5F2A000E6943A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				97B4786D1FF5F2A000E6943A /* 1.png */,
+				97B4786E1FF5F2A000E6943A /* 2.png */,
+				97B4786F1FF5F2A000E6943A /* 3.png */,
+				97B478701FF5F2A000E6943A /* 4.png */,
+				97B478711FF5F2A000E6943A /* 5.png */,
+				97B478721FF5F2A000E6943A /* 6.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		D74CFBBE45621733F4F527CA /* Frameworks */ = {
@@ -249,6 +310,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				97B4787E1FF5F2A000E6943A /* 4.png in Resources */,
+				97B4787B1FF5F2A000E6943A /* 1.png in Resources */,
+				97B478801FF5F2A000E6943A /* 6.png in Resources */,
+				97B4787C1FF5F2A000E6943A /* 2.png in Resources */,
+				97B4787D1FF5F2A000E6943A /* 3.png in Resources */,
+				97B4787F1FF5F2A000E6943A /* 5.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -377,8 +444,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B478841FF5F2A000E6943A /* SnapSudoku2ViewController.swift in Sources */,
+				97B4788A1FF5F30C00E6943A /* HomeTableViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				97B478821FF5F2A000E6943A /* SnapSameSpaceViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				97B478811FF5F2A000E6943A /* SelectTableViewController.swift in Sources */,
+				97B478871FF5F2A000E6943A /* SnapWithArrayViewController.swift in Sources */,
+				97B478831FF5F2A000E6943A /* SnapSameWidthViewController.swift in Sources */,
+				97B478881FF5F2A000E6943A /* UIColorExtension.swift in Sources */,
+				97B478851FF5F2A000E6943A /* SnapSudokuViewController.swift in Sources */,
+				97B478861FF5F2A000E6943A /* SnapWithArray2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
