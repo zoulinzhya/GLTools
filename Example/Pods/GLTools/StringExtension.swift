@@ -127,4 +127,9 @@ extension String {
      let a = "17600007218"
      let b = a.replacingOccurrences(of: "0000", with: "xxxx")
      */
+    
+    func replaceContent(content:String, with:String) -> String {
+        let replaced:String = self.replacingOccurrences(of: content, with: with)
+        return replaced
+    }
 }
