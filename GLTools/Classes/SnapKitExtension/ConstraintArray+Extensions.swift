@@ -1,34 +1,36 @@
 
 import SnapKit
 
+let swiftVersion:CGFloat = 4.0
+
 public extension Array {
 
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
     public func snp_prepareConstraints(_ closure: (_ make: ConstraintMaker) -> Void) -> [Constraint] {
         return self.snp.prepareConstraints(closure)
     }
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
     public func snp_makeConstraints(_ closure: (_ make: ConstraintMaker) -> Void) {
         self.snp.makeConstraints(closure)
     }
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
     public func snp_remakeConstraints(_ closure: (_ make: ConstraintMaker) -> Void) {
         self.snp.remakeConstraints(closure)
     }
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
     public func snp_updateConstraints(_ closure: (_ make: ConstraintMaker) -> Void) {
         self.snp.updateConstraints(closure)
     }
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
     public func snp_removeConstraints() {
         self.snp.removeConstraints()
     }
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
     public func snp_distributeViewsAlong(axisType: UILayoutConstraintAxis,
                                          fixedSpacing: CGFloat,
                                          leadSpacing: CGFloat = 0,
