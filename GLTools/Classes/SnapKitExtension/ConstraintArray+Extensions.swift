@@ -1,36 +1,36 @@
 
 import SnapKit
 
-let swiftVersion:CGFloat = 4.0
+//let swiftVersion:CGFloat = 4.0
 
 public extension Array {
 
-    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_prepareConstraints(_ closure: (_ make: ConstraintMaker) -> Void) -> [Constraint] {
         return self.snp.prepareConstraints(closure)
     }
     
-    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_makeConstraints(_ closure: (_ make: ConstraintMaker) -> Void) {
         self.snp.makeConstraints(closure)
     }
     
-    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_remakeConstraints(_ closure: (_ make: ConstraintMaker) -> Void) {
         self.snp.remakeConstraints(closure)
     }
     
-    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_updateConstraints(_ closure: (_ make: ConstraintMaker) -> Void) {
         self.snp.updateConstraints(closure)
     }
     
-    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_removeConstraints() {
         self.snp.removeConstraints()
     }
     
-    @available(*, deprecated:swiftVersion, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_distributeViewsAlong(axisType: UILayoutConstraintAxis,
                                          fixedSpacing: CGFloat,
                                          leadSpacing: CGFloat = 0,
@@ -43,7 +43,7 @@ public extension Array {
     }
 
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_distributeViewsAlong(axisType: UILayoutConstraintAxis,
                                          fixedItemLength: CGFloat,
                                          leadSpacing: CGFloat = 0,
@@ -55,7 +55,7 @@ public extension Array {
                                       tailSpacing: tailSpacing)
     }
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_distributeSudokuViews(fixedItemWidth: CGFloat,
                                           fixedItemHeight: CGFloat,
                                           warpCount: Int,
@@ -67,7 +67,7 @@ public extension Array {
                                        edgeInset: edgeInset)
     }
     
-    @available(*, deprecated:3.0, message:"Use newer snp.* syntax.")
+    @available(*, deprecated:4.0, message:"Use newer snp.* syntax.")
     public func snp_distributeSudokuViews(fixedLineSpacing: CGFloat,
                                           fixedInteritemSpacing: CGFloat,
                                           warpCount: Int,
